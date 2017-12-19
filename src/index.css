@@ -25,13 +25,17 @@ ul {
     font-size: 24px;
     font-weight: bold;
     line-height: 34px;
-    height: 50px;
+    height: 200px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 50px;
+    width: 200px;
     float: left;
+}
+
+.active-square {
+    box-shadow: inset 0px 0px 0px 5px #FFE4B5;
 }
 
 .coordinates {
@@ -58,7 +62,6 @@ ul {
 .game-info {
     margin-left: 20px;
     display: flex;
-    flex-direction: row;
 }
 
 .steps,
